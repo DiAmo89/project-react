@@ -5,6 +5,7 @@ import "./index.css";
 import Greetings from "./components/Greetings/Greetings";
 import Tool from "./components/Tool/Tool";
 import ProfileCard from "./components/ProfileCard/ProfileCard"
+import IdealWeightCalculator from "./components/IdealWeightCalculator/IdealWeightCalculator";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="profile">
         <ProfileCard avatar="https://api.dicebear.com/9.x/adventurer/svg?seed=Easton" name="Dima" description="Full Stack developer" />
       </div>
+      <IdealWeightCalculator />
 
     </div>
       
