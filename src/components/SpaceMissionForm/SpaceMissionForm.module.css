@@ -1,0 +1,36 @@
+.container {
+display: flex;
+justify-content: center;
+gap: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding:20px 20px 40px;
+    width: 450px;
+    height: 200px;
+    background-color: rgb(176, 245, 245);
+    border-radius: 25px;
+}
+.paragraf {
+    margin-top: 30px;
+
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
