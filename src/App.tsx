@@ -9,6 +9,7 @@ import IdealWeightCalculator from "./components/IdealWeightCalculator/IdealWeigh
 import SpaceMissionForm from "./components/SpaceMissionForm/SpaceMissionForm";
 import RandomDog from "./components/RandomDog/RandomDog";
 import GenderReveal from "./components/GenderReveal/GenderReveal";
+import Apinationalize from "./components/ApiNationalize/Apinationalize";
 
 function App() {
   return (
@@ -19,11 +20,13 @@ function App() {
       </div>
       <div className="profile">
         <ProfileCard avatar="https://api.dicebear.com/9.x/adventurer/svg?seed=Easton" name="Dima" description="Full Stack developer" />
-      </div >
       <IdealWeightCalculator /> 
       <SpaceMissionForm/>
       <GenderReveal />
       <RandomDog />
+      <Apinationalize />
+      </div >
+      
 
     </div>
    
