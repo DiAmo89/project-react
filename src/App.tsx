@@ -7,6 +7,8 @@ import Tool from "./components/Tool/Tool";
 import ProfileCard from "./components/ProfileCard/ProfileCard"
 import IdealWeightCalculator from "./components/IdealWeightCalculator/IdealWeightCalculator";
 import SpaceMissionForm from "./components/SpaceMissionForm/SpaceMissionForm";
+import RandomDog from "./components/RandomDog/RandomDog";
+import GenderReveal from "./components/GenderReveal/GenderReveal";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       </div >
       <IdealWeightCalculator /> 
       <SpaceMissionForm/>
+      <GenderReveal />
+      <RandomDog />
 
     </div>
    

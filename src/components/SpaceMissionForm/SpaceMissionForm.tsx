@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import style from "./SpaceMissionForm.module.css";
+import { planetOptions } from "./SelectOptions";
 export default function SpaceMissionForm() {
     const[user,setUser]=useState("")
     const[mission,setMission]=useState("")
@@ -12,6 +13,8 @@ export default function SpaceMissionForm() {
     setMessage(`🧑‍🚀 Astronaut ${user} is headed to ${mission}!`);
   }
 }
+
+useEffect(()=>{console.log("Use effect in Space Mission - no dependencies");})
   return (
     <>
       <div className={style.box}>
@@ -22,11 +25,12 @@ export default function SpaceMissionForm() {
         onChange={(e) => setUser(e.target.value)} />
           <select name="planet" value={mission}
         onChange={(e) => setMission(e.target.value)}>
-            <option value="Planet">Planet</option>
+            {/* <option value="Planet">Planet</option>
             <option value="Mars">Mars</option>
             <option value="Venus">Venus</option>
             <option value="Jupiter">Jupiter</option>
-            <option value="Saturn">Saturn</option>
+            <option value="Saturn">Saturn</option> */}
+            {planetOptions.map((option)=>(<option value={option.value}>{option.label}</option>))}
           </select>
         </div>
         <button type="button" className={style.btn} onClick={handleStart}>Start Mission</button>
