@@ -1,8 +1,9 @@
+interface Country {
+  country_id: string;
+  probability: number;
+}
 export interface ApiNationalizeInfo {
   count: number;
   name: string;
-  country: {
-    country_id: string;
-    probability: number;
-  }[];
+  country: Country[];
 }

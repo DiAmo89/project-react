@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { ApiNationalizeInfo } from "./ApiNationalizeInfo";
 import s from "./ApiNationalize.module.css";
+import getCountryFullName from "../../utils/getCountryFullName";
 
 export default function Apinationalize() {
   const [name, setName] = useState<string>("");
@@ -50,7 +51,7 @@ export default function Apinationalize() {
           <div className={s.countries}>
             {info.country.map((c) => (
               <div key={c.country_id} className={s.countryItem}>
-                <span>{c.country_id}</span>
+                <span>{getCountryFullName(c.country_id)}</span>
                 <span>{(c.probability * 100).toFixed(1)}%</span>
               </div>
             ))}

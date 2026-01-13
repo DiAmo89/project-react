@@ -13,7 +13,6 @@ export default function RandomDog() {
     fetchDogImage();
   }, []);
   return <div className="dogi">
-    <h3>RandomDog</h3>
     <img src={image} alt="Photo random dog" />
   </div>;
 }
