@@ -4,13 +4,16 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: hsl(0, 17%, 91%);
+  color: rgba(128, 11, 11, 0.87);
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  align-items: center;
+  justify-content: center;
 }
 .container {
   display: flex;

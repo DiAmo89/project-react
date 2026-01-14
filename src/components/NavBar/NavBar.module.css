@@ -1,7 +1,7 @@
 .container {
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
   padding: 24px;
@@ -16,4 +16,7 @@
 }
 .link:hover {
     color: darkslateblue;
+}
+.active {
+  color: blue;
 }
