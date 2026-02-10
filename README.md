@@ -2,6 +2,10 @@
 
 A modern, full-featured React + TypeScript application built with Vite and Tailwind CSS. This project demonstrates advanced React patterns, state management, API integration, form handling, and responsive UI design.
 
+**[🌐 View on Vercel](https://project-react-rouge-chi.vercel.app/)** | **[📁 GitHub Repository](https://github.com/yourusername/project-01)**
+
+---
+
 ## ✨ Features
 
 ### Core Technologies
@@ -14,7 +18,21 @@ A modern, full-featured React + TypeScript application built with Vite and Tailw
 - **Formik + Yup** - Form validation and management
 - **Context API** - Global state management
 
-### Showcase Components & Pages
+## 🎬 Live Demo
+
+Experience the application live: **[🌐 View on Vercel](https://project-react-rouge-chi.vercel.app/)**
+
+### Try It Out!
+
+- 🔐 Sign up with validation
+- 👥 Browse featured users directory (responsive grid)
+- 📊 Calculate ideal weight with the Devine formula
+- 🌍 Predict nationality with real API integration
+- 📈 Explore counter with global state management
+- 🛒 View product showcase
+- ⚙️ Manage profile and settings
+
+## ✨ Showcase Features
 
 - 🔐 **Authentication System** - Sign up, profile management
 - 📊 **API Integration** - Real-world API calls (Nationalize API)
