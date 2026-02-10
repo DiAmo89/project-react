@@ -100,10 +100,20 @@ export default function Home() {
               Get Started
             </Link>
             <a
-              href="https://github.com"
+              href="https://project-react-rouge-chi.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors"
             >
-              View on GitHub
+              🚀 View Live on Vercel
+            </a>
+            <a
+              href="https://github.com/yourusername/project-01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors"
+            >
+              📁 View on GitHub
             </a>
           </div>
         </div>
