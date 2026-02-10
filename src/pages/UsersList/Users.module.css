@@ -1,0 +1,39 @@
+/* GRID-ul la nivel de container, exterior */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+/* card simplu, fără grid intern */
+.card {
+  min-width: 180px;
+  min-height: 220px;
+
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  padding: 12px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* imagine mica, rotunda */
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* text Loading */
+.loading {
+  text-align: center;
+  font-size: 16px;
+}

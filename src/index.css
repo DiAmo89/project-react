@@ -1,22 +1,19 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(128, 11, 11, 0.87);
-  background-color: white;
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  h1 {
+    @apply text-4xl font-bold;
+  }
 
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
 }

@@ -3,6 +3,8 @@ import { Outlet } from "react-router-dom";
 
 export default function AppRoute() {
   return (
-    <Outlet/>
+    <div className="w-full">
+      <Outlet />
+    </div>
   )
 }
